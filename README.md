@@ -53,6 +53,67 @@ Assessment of casualty trends: This can help identify the most devastating types
 
 Unveiling patterns related to terrorist organizations: This can potentially aid in understanding their strategies, thereby supporting intelligence agencies in their counter-terrorism efforts.
 
+# **What did you know about your dataset?**
+**Dataset Size**: The dataset is quite large, containing 181,691 entries or rows.
+
+**Feature Quantity**: The dataset contains 135 features or columns.
+
+**Data Types**: The dataset has a mix of data types. There are 55 features with floating point numbers (float64), 22 features with integers (int64), and 58 features with objects (object). The object datatype in pandas typically means the column contains string (text) data.
+
+**Memory Usage**: The dataset uses over 187.1 MB of memory.
+
+**Missing Values**: There are some columns with a large number of missing values. For example, the 'approxdate' column has 172,452 missing values and the 'related' column has 156,653 missing values. However, several columns do not have any missing values, such as 'eventid', 'iyear', 'imonth', 'iday', 'INT_LOG', 'INT_IDEO', 'INT_MISC', and 'INT_ANY'.
+**eventid**: Unique ID for each event or terrorist attack.
+
+**iyear**: Year the terrorist attack occurred.
+
+**imonth**: Month the terrorist attack occurred.
+
+**iday**: Day the terrorist attack occurred.
+
+**country_txt**: Name of the country where the terrorist attack occurred.
+
+**region_txt**: Name of the region where the terrorist attack occurred.
+
+**city**: City where the terrorist attack occurred.
+
+**attacktype1_txt**: The general method of attack employed.
+
+**target1**: The specific person, building, installation, etc., that was targeted.
+
+**nkill**: Number of confirmed fatalities for the incident.
+
+**nwound**: Number of confirmed non-fatal injuries.
+
+**gname**: Name of the group that carried out the attack.
+
+# **5. Solution to Business Objective**
+Based on the exploratory data analysis conducted on the Global Terrorism Dataset, there are several recommendations that could be provided to a client interested in using this information to decrease the impact of terrorism, and thereby meet the stated business objective.
+
+Focus on Hotspot Regions: The regions with the highest frequencies of terrorist activities should be prioritized for intervention efforts. These regions may need more robust security measures, targeted socio-economic programs to address root causes of terrorism or more substantial international assistance.
+
+Understand Yearly Trends: Keeping track of the rise or fall of terrorist incidents over the years could help forecast potential future threats and adjust counter-terrorism strategies accordingly.
+
+Prioritize Major Threat Groups: Our analysis shows that certain terrorist groups are more active than others. Intelligence efforts should be concentrated on these high-impact groups to prevent future attacks.
+
+Target Most Common Attack Types: Understanding the most common types of attacks used by terrorists can help in developing preventive measures and response strategies. For instance, if bombings are the most common attack type, more resources could be directed towards bomb detection and disposal.
+
+ # **Conclusion**
+ The Exploratory Data Analysis (EDA) conducted on the Global Terrorism Dataset provided significant insights into trends and patterns in global terrorism from 1970 through 2017. With the help of the Python libraries Pandas, Matplotlib, Seaborn, and NumPy, we were able to handle, visualize and interpret complex data related to terrorist activities.
+
+Through this analysis, we identified trends over time, regional hotspots, dominant terrorist groups, and preferred modes of attacks. All these findings are crucial for devising effective counter-terrorism strategies and interventions.
+
+The process underscored the power of data-driven decision-making. By using EDA, we were able to transform raw data into meaningful insights. For instance, understanding that certain regions are more prone to terrorist attacks or that specific terrorist groups are more active allows security agencies and policymakers to allocate resources more efficiently, thereby potentially saving lives and property.
+
+However, while this data analysis provides a robust foundation, it's important to acknowledge that addressing terrorism requires more than just understanding past data. It necessitates a comprehensive approach that includes current intelligence, geopolitical considerations, and on-the-ground realities.
+
+To conclude, this project demonstrates the potential of data analysis in informing and shaping counter-terrorism efforts. It provides a useful starting point for further study and action, emphasizing the importance of continuous data collection, analysis, and interpretation in tackling global security challenges like terrorism.
+
+
+
+
+
+
 
 
 
