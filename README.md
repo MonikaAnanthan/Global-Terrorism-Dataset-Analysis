@@ -37,7 +37,7 @@ In conclusion, this project offers a data-driven exploration into the dark world
 
 7. Identify the hot zones of terrorism globally and discern the evolving patterns of terrorist activities.
    
-#### **Define Your Business Objective?**
+# **Define Your Business Objective?**
 
 The business objective of this project is to leverage the data contained within the Global Terrorism Database (GTD) to derive actionable insights into terrorist activities worldwide from 1970 to 2017. By conducting a comprehensive exploratory data analysis (EDA), the goal is to identify the key patterns, trends, and correlations related to global terrorism, thereby enabling better-informed decision-making for security analysts, policy-makers, and counter-terrorism agencies.
 
